@@ -66,7 +66,7 @@ function preload() {
   txt = loadStrings("ssbd.txt");
 
   myFont = ["Noto Sans", "Noto Serif", "Noto Sans Mono"];
-  myFont2 = loadFont('NotoSans-Bold.tff');
+  myFont2 = loadFont('NotoSansMono-ExtraBold.ttf');
 }
 
 function setup() {
@@ -151,7 +151,7 @@ function draw() {
   fill(225);
   textSize(18);
   textAlign(CENTER);
-  textFont("Noto Sans Mono");
+  textFont(myFont2);
   text("< refresh >", 0, 0);
   pop();
 
@@ -160,7 +160,7 @@ function draw() {
   fill(225);
   textSize(18);
   textAlign(LEFT);
-  textFont("Noto Sans Mono");
+  textFont(myFont2);
   text("< back >", 0, 0);
   pop();
 
@@ -169,7 +169,7 @@ function draw() {
   fill(225);
   textSize(18);
   textAlign(RIGHT);
-  textFont("Noto Sans Mono");
+  textFont(myFont2);
   text("< next >", 0, 0);
   pop();
   
